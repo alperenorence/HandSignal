@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Alperen Örence on 5.04.2023.
+  
+*/
+
+/* MARK: - AboutHSView */
+
+"AboutHSView.title" = "About HandSignal";
+"AboutHSView.q1.title" = "What is HandSignal?";
+"AboutHSView.q1.description" = "With HandSignal, you can learn base informations and some hand signs of American Sign Language. Thanks to Machine Learning, HandSignal can recognize hand poses through the camera and converting them into letters.";
+"AboutHSView.q2.title" = "How HandSignal Works?";
+"AboutHSView.q2.description" = "HandSignal **does not** require knowing Sign Language. During the learning process, HandSignal shows you images of hand signs and asks you to perform the corresponding sign on camera. After completing the learning process, you'll be able to perform some basic hand signs.";
+
+/* MARK: - AboutSLView */
+
+"AboutSLView.title" = "About Sign Language";
+"AboutSLView.q1.title" = "What is Sign Language?";
+"AboutSLView.q1.description" = "Sign language is a visual language that uses a combination of hand gestures, facial expressions, and body language to convey meaning. \n\nSign languages are used by deaf and hard-of-hearing individuals to communicate with one another and with those who can hear. \n\nThere are many different sign languages used around the world, with each language having its own unique grammar and vocabulary.";
+"AboutSLView.q2.title" = "What is American Sign Language?";
+"AboutSLView.q2.description" = "American Sign Language (ASL) is a sign language that is primarily used in the United States and Canada. It is a complete language with its own grammar and syntax and is used by around 500,000 people.";
+
+/* MARK: - CameraView */
+
+"CameraView.badge.failed" = "Camera Setup Failed";
+"CameraView.badge.accessDenied" = "Camera Access Denied";
+"CameraView.badge.loading" = "Loading...";
+"CameraView.badge.success" = "Start Camera";
+
+/* MARK: - CreditsView */
+
+"CreditsView.closeButton.title" = "Close";
+"CreditsView.title" = "Credits";
+"CreditsView.text" = "MIT License | Copyright (c) 2023 Alperen Örence
+
+This project is created for Apple's Swift Student Challenge 2023 and was created by Alperen Örence. Some materials' details used in this project are given below.
+
+- The 'ASL' Spell Image
+    - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:American_Sign_Language_ASL.svg)
+    - Author: Psiĥedelisto
+    - License: [Public Domain (CC0)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+- Hand Sign of Letters in American Sign Language Images (from A to Z)
+    - Source: [WPClipart](https://www.wpclipart.com/sign_language/American_ABCs/index.html)
+    - License: [Public Domain (CC0)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+- American Sign Language Image Dataset
+    - Source: [Roboflow](https://public.roboflow.ai/object-detection/american-sign-language-letters)
+    - Author: David Lee
+    - License: [Public Domain (CC0)](https://creativecommons.org/publicdomain/zero/1.0/)
+";
+
+/* MARK: - FinalView */
+
+"FinalView.logo.description" = "Thanks for using";
+"FinalView.creditsButton.title" = "Credits";
+"FinalView.content.q1.title" = "What's Next?";
+"FinalView.content.q1.description" = "You can go to the previous page and try to learn and use all hand signs.";
+"FinalView.content.q2.title" = "Contribution";
+"FinalView.content.q2.description" = "This project is available on [GitHub](https://github.com/alperenorence/HandSignal). If you want to make any kind of contribution, you can visit the site given above.";
+"FinalView.navigationButton.start" = "Start Over";
+
+/* MARK: - IntroView */
+
+"IntroView.description" = "Welcome! HandSignal is made for inform people about sign language. With this project, you can learn base informations and some basic hand signs.";
+"IntroView.navigationButton.next" = "Start";
+
+/* MARK: - LearnView */
+
+"LearnView.title" = "Learn Sign Language";
+"LearnView.description" = "In this part, you need to hold your hand towards the camera and do hand signs below. If possible, go to a flat and clear background.";
+"LearnView.completed.title" = "Congrats!";
+"LearnView.completed.description" = "You learned how you can use the some letters of ASL. You can continue to the next step now.";
+
+/* MARK: - MainView */
+
+"MainView.screenSizeAlert" = "The current screen width is not enough. Please run the project on your device or another device with a larger screen.";
+
+/* MARK: - NavigationButtonsView */
+
+"NavigationButtonsView.next" = "Next";
+"NavigationButtonsView.previus" = "Previus";
+"NavigationButtonsView.skip" = "Skip";
+
+/* MARK: - TryView */
+
+"TryView.title" = "Use Sign Language";
+"TryView.description" = "In this part, you need to hold your hand towards the camera and try to tell a word with hand signs. The word must be at least 3 letters. If possible, go to a flat and clear background.";
+"TryView.buttons.back" = "Back";
+"TryView.completed.title" = "Congrats!";
+"TryView.completed.description" = "You succeed to say a word you choose using sign language! You can keep going or continue to the next step now.";

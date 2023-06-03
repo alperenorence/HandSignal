@@ -1,0 +1,103 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "Dataset: [American Sign Language Letters v1](https:\/\/public.roboflow.ai\/object-detection\/american-sign-language-letters) by David Lee (Public Domain)",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "labelProbabilities",
+        "shortDescription" : "A dictionary of labels and the corresponding confidences."
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "label",
+        "shortDescription" : "Most likely hand pose category."
+      }
+    ],
+    "storagePrecision" : "Float32",
+    "modelParameters" : [
+
+    ],
+    "author" : "Alperen Örence",
+    "specificationVersion" : 4,
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetworkClassifier"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 3 × 21)",
+        "shortDescription" : "A hand pose to classify. Its multiarray encoding uses the first dimension to index time over 1 frame. The second dimension indexes x, y, and confidence of hand pose keypoint locations. The last dimension indexes the keypoint type, ordered as wrist, thumbCMC, thumbMP, thumbIP, thumbTip, indexMCP, indexPIP, indexDIP, indexTip, middleMCP, middlePIP, middleDIP, middleTip, ringMCP, ringPIP, ringDIP, ringTip, littleMCP, littlePIP, littleDIP, littleTip.",
+        "shape" : "[1, 3, 21]",
+        "name" : "poses",
+        "type" : "MultiArray"
+      }
+    ],
+    "classLabels" : [
+      "c",
+      "s",
+      "o",
+      "g",
+      "i",
+      "z",
+      "n",
+      "x",
+      "q",
+      "y",
+      "v",
+      "t",
+      "r",
+      "p",
+      "m",
+      "d",
+      "f",
+      "e",
+      "w",
+      "a",
+      "k",
+      "h",
+      "u",
+      "b",
+      "j",
+      "l"
+    ],
+    "generatedClassName" : "ASLModel",
+    "userDefinedMetadata" : {
+      "com.apple.createml.app.tag" : "99.2",
+      "Prediction Window Size" : "1",
+      "Target Frame Rate" : "30.0",
+      "com.apple.coreml.model.preview.type" : "handPoseClassifier",
+      "com.apple.createml.app.version" : "4.0"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "Squeeze" : 1,
+      "Transpose" : 4,
+      "ActivationReLU" : 8,
+      "ReshapeStatic" : 3,
+      "Add" : 7,
+      "PoolingAverage" : 8,
+      "ExpandDims" : 2,
+      "BatchNorm" : 15,
+      "Convolution" : 20,
+      "InnerProduct" : 2,
+      "SoftmaxND" : 1
+    },
+    "method" : "predict"
+  }
+]
